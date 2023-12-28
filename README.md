@@ -4,17 +4,27 @@ This code generates a food composition database for India called the ‘Indian N
 The following abbreviations are used in this README file.
 
 ASC = Art & Science of Cooking
+
 BFP = Basic Food Preparation
+
 FAO = Food and Agriculture Organization of the United Nations 
+
 FCT = Food Composition Table
+
 ICMR = Indian Council of Medical Research
+
 IFCT = Indian Food Composition Table
+
 NIN = National Institute of Nutrition
+
 NRF = Nutrient Retention Factors
+
 OSR = Open Source Recipes
+
 USDA = US Department of Agriculture 
 
-There are 7 data files and 2 information files:
+
+There are 7 data files:
 
 1. Excel file called ‘NIN_fct.xlxs'
 
