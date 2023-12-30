@@ -24,7 +24,7 @@ OSR = Open Source Recipes
 USDA = US Department of Agriculture 
 
 
-There are 7 data files:
+There are 6 data files:
 
 1. Excel file called ‘NIN_fct.xlsx'
 
@@ -41,6 +41,7 @@ This contains nutrient data (amount of nutrient per 100g food item except in the
 
 A a trace value for a nutrient is represented by Tr. Where a nutrient is present in significant quantities, but there is no reliable information on the amount, the value is represented by N.
 
+Nutrients include: energy (kj), energy (kcal), carbohydrates (carb), protein, fat, iron, calcium, zinc, sodium, cholesterol, free sugars, saturated fat (sfa), monounsaturated fat (mufa), polyunsaturated fat (pufa), fibre, folate, vitamin A (vita), vitamin B1, vitamin B2, vitamin B3, vitamin B5, vitamin B6, vitamin B7, vitamin B9, vitamin C, and carotenoids. 
 
 3. Excel file called ‘US_fct.xlsx'
 
@@ -48,6 +49,7 @@ This contains nutrient data (amount of nutrient per 100g food item except in the
 
 Where there was no information on the amount of a nutrient the value it is represented by NA.
 
+Nutrients include: energy (kj), energy (kcal), carbohydrates (carb), protein, fat, iron, calcium, zinc, sodium, cholesterol, free sugars, saturated fat (sfa), monounsaturated fat (mufa), polyunsaturated fat (pufa), fibre, folate, vitamin A (vita), vitamin B1, vitamin B2, vitamin B3, vitamin B5, vitamin B6, vitamin B7, vitamin B9, vitamin C, and carotenoids. 
 
 4. Excel file called ‘recipes.xlsx'
 
@@ -73,11 +75,6 @@ This contains the common names of recipes from the dataset mentioned in #4.
 6. Excel file called ‘recipes_servingsize.xlsx'
 
 This contains the serving sizes for recipes from the dataset mentioned in #4.
-
-
-7. Excel file called ‘USDA_nrf.xlsx’
-
-This contains the information on nutrient retention factors from the USDA Table of Nutrient Retention Factors, Release 6 (2007): https://data.nal.usda.gov/dataset/usda-table-nutrient-retention-factors-release-6-2007. The USDA nutrient retention factors database has information on % retention, based on food types, for micronutrients for a range of cooking methods such as baking, broiling, and boiling. For the calculation of nutrient retention for INDB, the raw food ingredients were matched to the most commonly practiced cooking methods in Indian recipes. 
 
 
 There are 2 information files:
