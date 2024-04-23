@@ -76,6 +76,10 @@ This contains the common names of recipes from the dataset mentioned in #4.
 
 This contains the serving sizes for recipes from the dataset mentioned in #4.
 
+7. Excel file called ‘USDA_nrf.xlxs’
+
+This contains the information on nutrient retention factors from the USDA Table of Nutrient Retention Factors, Release 6 (2007): https://data.nal.usda.gov/dataset/usda-table-nutrient-retention-factors-release-6-2007. The USDA nutrient retention factors database has information on % retention, based on food types, for micronutrients for a range of cooking methods such as baking, broiling, and boiling. For the calculation of nutrient retention for INDB, the raw food ingredients were matched to the most commonly practiced cooking methods in Indian recipes. 
+
 
 There are 2 information files:
 
