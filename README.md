@@ -26,14 +26,11 @@ USDA = US Department of Agriculture
 
 There are 7 data files:
 
-1. Excel file called ‘NIN_fct.xlsx'
+1. File on ICMR-NIN IFCT 2017
 
-This contains nutrient data (amount of nutrient per 100g food item except in the case of alcoholic beverages which are presented per 100ml) for 897 raw food items. It is compiled from the ICMR-NIN IFCT 2004 and IFCT 2017. When duplicate food items were in the 2004 and 2017 editions, the more recent (2017) was retained.
+For accessing, the Indian Food Composition Tables (IFCT) 2017 tables, please refer to the Indian Council of Medical Research-National Institute of Nutrition (ICMR-NIN) at https://www.nin.res.in/ebooks/IFCT2017.pdf.
 
-NA indicates the value was not available in IFCT 2004 or 2017. This was the case for many protein foods for which carbohydrates, free sugars, and fibre were not measured. For commonly consumed foods, a secondary source (see UK_fct file below) was consulted for missing nutrient values. In these instances, a trace value for a nutrient is represented by Tr and where a nutrient is present in significant quantities, but there is no reliable information on the amount, the value is represented by N.
-
-Nutrients include: energy (kJ), energy (kcal), carbohydrates (g), protein (g), fat (g), free sugars (g), fibre (g), saturated fatty acid (mg), monounsaturated fatty acid (mg), polyunsaturated fatty acid (mg), cholesterol (mg), calcium (mg), phosphorus (mg), magnesium (mg), sodium (mg), potassium (mg), iron (mg), copper (mg), selenium (µg), chromium (mg), manganese (mg), molybdenum (mg), zinc (mg), vitamin A (µg), vitamin E (mg), vitamin D2 (µg), vitamin D3 (µg), vitamin K1 (µg), vitamin K2 (µg), folate (µg), thiamine (mg), riboflavin (mg), niacin (mg), pantothenic acid (mg), vitamin B6 (mg), biotin (µg), folic acid (µg), vitamin C (mg), and 
-
+To enable the running of the STATA codes, in the ICMR-NIN IFCT 2017 file, please name the variables as 'food_code', ‘food_code_org’, ‘food_name’, ‘primarysource’, ‘secondarysource’, 'energy_kj', 'energy_kcal', 'carb_g', 'protein_g', 'fat_g', 'freesugar_g', 'fibre_g', 'sfa_mg', 'mufa_mg', 'pufa_mg', 'cholesterol_mg', 'calcium_mg', 'phosphorus_mg', 'magnesium_mg', 'sodium_mg', 'potassium_mg', 'iron_mg', 'copper_mg', 'selenium_ug', 'chromium_mg', 'manganese_mg', 'molybdenum_mg', 'zinc_mg', 'vita_ug', 'vite_mg', 'vitd2_ug', 'vitd3_ug', 'vitk1_ug', 'vitk2_ug', 'folate_ug', 'vitb1_mg', 'vitb2_mg', 'vitb3_mg', 'vitb5_mg', 'vitb6_mg', 'vitb7_ug', 'vitb9_ug', 'vitc_mg', 'carotenoids_ug'.
 
 2. Excel file called ‘UK_fct.xlsx'
 
