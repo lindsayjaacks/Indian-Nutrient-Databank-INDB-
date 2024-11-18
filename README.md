@@ -75,7 +75,7 @@ This contains the serving sizes for recipes from the dataset mentioned in #4.
 
 This contains the information on nutrient retention factors from the USDA Table of Nutrient Retention Factors, Release 6 (2007): https://agdatacommons.nal.usda.gov/articles/dataset/USDA_Table_of_Nutrient_Retention_Factors_Release_6_2007_/24660888 The USDA nutrient retention factors database has information on % retention, based on food types, for micronutrients for a range of cooking methods such as baking, broiling, and boiling. For the calculation of nutrient retention for INDB, the raw food ingredients were matched to the most commonly practiced cooking methods in Indian recipes. 
 
-There are 2 information files:
+There are 3 information files:
 
 1. Excel file called ‘recipe_links.xlsx’
 
@@ -84,6 +84,10 @@ This contains the name, food code, and web link (e.g., URL) of the recipes (n=15
 2. Excel file called ‘units.xlsx’
 
 This contains information on unit conversions that were used for entering the amount of raw ingredients for each recipe. The amounts of the raw ingredients for each recipe were entered as grams, millilitres, tablespoons, teaspoons, or sprigs (the dataset mentioned in #4). In some cases, the amounts were entered as numbers such as one apple. In these cases, the information on ‘weights and equivalent measures of some food stuffs’ in both the ‘Basic Food Preparation, 4th Edition’ and ‘The Art of Science of Cooking, 5th Edition’ manuals were used to convert the amount of the food item to grams, tablespoons, and teaspoons. In some cases, the USDA food composition database is used to obtain the data for unit conversions.
+
+3. Excel file called ‘INDB.xlsx’
+
+This contains information on detailed nutritional data for 1,014 common recipes, with values presented per 100g and per serving size.
 
 There is 1 code file:
 
