@@ -1,5 +1,5 @@
 # Indian-Nutrient-Databank-INDB-
-This code generates a food composition database for India called the ‘Indian Nutrient Databank (INDB).’ INDB includes standard recipes commonly consumed in India. 
+This code generates a dataframe called the ‘Indian Nutrient Databank (INDB).’ INDB includes nutrient values for recipes commonly consumed in India. 
 
 The following abbreviations are used in this README file.
 
