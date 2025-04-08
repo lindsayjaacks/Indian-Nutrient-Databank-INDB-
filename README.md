@@ -32,11 +32,11 @@ Longvah, T., Ananthan, R., Bhaskarachary, K., & Venkaiah, K. (2017). Indian Food
 
 Gopalan, C., Rama Sastri, B. V., & Balasubramanian, S. C. (2004). Nutritive Value of Indian Foods (Revised and updated by B. S. Narasinga Rao, Y. G. Deosthale, & K. C. Pant). National Institute of Nutrition, Indian Council of Medical Research, Hyderabad, Telangana, India.
 
-To enable the running of the STATA codes, please name the variables as 'food_code', ‘food_code_org’, ‘food_name’, ‘primarysource’, ‘secondarysource’, 'energy_kj', 'energy_kcal', 'carb_g', 'protein_g', 'fat_g', 'freesugar_g', 'fibre_g', 'sfa_mg', 'mufa_mg', 'pufa_mg', 'cholesterol_mg', 'calcium_mg', 'phosphorus_mg', 'magnesium_mg', 'sodium_mg', 'potassium_mg', 'iron_mg', 'copper_mg', 'selenium_ug', 'chromium_mg', 'manganese_mg', 'molybdenum_mg', 'zinc_mg', 'vita_ug', 'vite_mg', 'vitd2_ug', 'vitd3_ug', 'vitk1_ug', 'vitk2_ug', 'folate_ug', 'vitb1_mg', 'vitb2_mg', 'vitb3_mg', 'vitb5_mg', 'vitb6_mg', 'vitb7_ug', 'vitb9_ug', 'vitc_mg', 'carotenoids_ug'.
+To enable the running of the STATA codes, please name the dataframe as 'NIN_fct' and the variables as 'food_code', ‘food_code_org’, ‘food_name’, ‘primarysource’, ‘secondarysource’, 'energy_kj', 'energy_kcal', 'carb_g', 'protein_g', 'fat_g', 'freesugar_g', 'fibre_g', 'sfa_mg', 'mufa_mg', 'pufa_mg', 'cholesterol_mg', 'calcium_mg', 'phosphorus_mg', 'magnesium_mg', 'sodium_mg', 'potassium_mg', 'iron_mg', 'copper_mg', 'selenium_ug', 'chromium_mg', 'manganese_mg', 'molybdenum_mg', 'zinc_mg', 'vita_ug', 'vite_mg', 'vitd2_ug', 'vitd3_ug', 'vitk1_ug', 'vitk2_ug', 'folate_ug', 'vitb1_mg', 'vitb2_mg', 'vitb3_mg', 'vitb5_mg', 'vitb6_mg', 'vitb7_ug', 'vitb9_ug', 'vitc_mg', 'carotenoids_ug'.
 
 2. Excel file called ‘UK_fct.xlsx'
 
-This contains nutrient data (amount of nutrient per 100g food item except in the case of alcoholic beverages which are presented per 100ml) for 144 ingredients that are found in Indian recipes included in the INDB but were not in the NIN_fct file. These data are from the 2021 version of the UK ‘McCance and Widdowson's composition of foods integrated dataset’ available from: https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid. 
+This contains nutrient data (amount of nutrient per 100g food item except in the case of alcoholic beverages which are presented per 100ml) for 144 ingredients that are found in Indian recipes included in the INDB but were not in the ICMR-NIN IFCT 2017 or 2004. These data are from the 2021 version of the UK ‘McCance and Widdowson's composition of foods integrated dataset’ available from: https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid. 
 
 A trace value for a nutrient is represented by Tr. Where a nutrient is present in significant quantities, but there is no reliable information on the amount, the value is represented by N.
 
@@ -44,7 +44,7 @@ Nutrients include: energy (kJ), energy (kcal), carbohydrates (g), protein (g), f
 
 3. Excel file called ‘US_fct.xlsx'
 
-This contains nutrient data (amount of nutrient per 100g food item except in the case of alcoholic beverages which are presented per 100ml) for 54 ingredients that are found in Indian recipes included in the INDB but were not in the NIN_fct file or the UK dataset mentioned in #2. These data are from the US Department of Agriculture’s FoodData Central available from: https://fdc.nal.usda.gov/.  The prefix 'US' was added before the original USDA code to identify the source.
+This contains nutrient data (amount of nutrient per 100g food item except in the case of alcoholic beverages which are presented per 100ml) for 54 ingredients that are found in Indian recipes included in the INDB but were not in the ICMR-NIN IFCT 2017 or 2004, or the UK dataset mentioned in #2. These data are from the US Department of Agriculture’s FoodData Central available from: https://fdc.nal.usda.gov/.  The prefix 'US' was added before the original USDA code to identify the source.
 
 Where there was no information on the amount of a nutrient the value it is represented by NA.
 
