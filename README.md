@@ -24,13 +24,15 @@ OSR = Open Source Recipes
 USDA = US Department of Agriculture 
 
 
-There are 7 data files:
+There are 7 data files required:
 
-1. File on ICMR-NIN IFCT 2017
+1. ICMR-NIN IFCT 2017 and 2004 - these must be requested from the original source, as follows:
 
-For accessing, the Indian Food Composition Tables (IFCT) 2017 tables, please refer to the Indian Council of Medical Research-National Institute of Nutrition (ICMR-NIN) at https://www.nin.res.in/ebooks/IFCT2017.pdf.
+Longvah, T., Ananthan, R., Bhaskarachary, K., & Venkaiah, K. (2017). Indian Food Composition Tables 2017, National Institute of Nutrition, Indian Council of Medical Research, Hyderabad, Telangana, India.
 
-To enable the running of the STATA codes, in the ICMR-NIN IFCT 2017 file, please name the variables as 'food_code', ‘food_code_org’, ‘food_name’, ‘primarysource’, ‘secondarysource’, 'energy_kj', 'energy_kcal', 'carb_g', 'protein_g', 'fat_g', 'freesugar_g', 'fibre_g', 'sfa_mg', 'mufa_mg', 'pufa_mg', 'cholesterol_mg', 'calcium_mg', 'phosphorus_mg', 'magnesium_mg', 'sodium_mg', 'potassium_mg', 'iron_mg', 'copper_mg', 'selenium_ug', 'chromium_mg', 'manganese_mg', 'molybdenum_mg', 'zinc_mg', 'vita_ug', 'vite_mg', 'vitd2_ug', 'vitd3_ug', 'vitk1_ug', 'vitk2_ug', 'folate_ug', 'vitb1_mg', 'vitb2_mg', 'vitb3_mg', 'vitb5_mg', 'vitb6_mg', 'vitb7_ug', 'vitb9_ug', 'vitc_mg', 'carotenoids_ug'.
+Gopalan, C., Rama Sastri, B. V., & Balasubramanian, S. C. (2004). Nutritive Value of Indian Foods (Revised and updated by B. S. Narasinga Rao, Y. G. Deosthale, & K. C. Pant). National Institute of Nutrition, Indian Council of Medical Research, Hyderabad, Telangana, India.
+
+To enable the running of the STATA codes, please name the variables as 'food_code', ‘food_code_org’, ‘food_name’, ‘primarysource’, ‘secondarysource’, 'energy_kj', 'energy_kcal', 'carb_g', 'protein_g', 'fat_g', 'freesugar_g', 'fibre_g', 'sfa_mg', 'mufa_mg', 'pufa_mg', 'cholesterol_mg', 'calcium_mg', 'phosphorus_mg', 'magnesium_mg', 'sodium_mg', 'potassium_mg', 'iron_mg', 'copper_mg', 'selenium_ug', 'chromium_mg', 'manganese_mg', 'molybdenum_mg', 'zinc_mg', 'vita_ug', 'vite_mg', 'vitd2_ug', 'vitd3_ug', 'vitk1_ug', 'vitk2_ug', 'folate_ug', 'vitb1_mg', 'vitb2_mg', 'vitb3_mg', 'vitb5_mg', 'vitb6_mg', 'vitb7_ug', 'vitb9_ug', 'vitc_mg', 'carotenoids_ug'.
 
 2. Excel file called ‘UK_fct.xlsx'
 
